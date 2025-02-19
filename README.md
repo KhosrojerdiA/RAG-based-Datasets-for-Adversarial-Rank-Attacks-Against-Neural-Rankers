@@ -60,19 +60,19 @@ Our datasets are categorized as follows:
 
 ## Datasets Analysis
 
-![](images/Side1.png)
+![](images/Slide1.png)
 <p align="center"><em></em></p>
 
-![](images/Side2.png)
+![](images/Slide2.png)
 <p align="center"><em></em></p>
 
-![](images/Side3.png)
+![](images/Slide3.png)
 <p align="center"><em></em></p>
 
-![](images/Side4.png)
+![](images/Slide4.png)
 <p align="center"><em></em></p>
 
-![](images/Side5.png)
+![](images/Slide5.png)
 <p align="center"><em></em></p>
 
 
@@ -85,7 +85,7 @@ We evaluate our approach against state-of-the-art adversarial ranking techniques
 - Trigger-Based Attacks (PAT, Brittle-BERT)
 - Sentence-Level Attacks (IDEM)
 
-![](images/Side6.png)
+![](images/Slide6.png)
 <p align="center"><em></em></p>
 
 Our RAG-based approach achieves a 100% attack success rate, significantly improving document rankings while maintaining high linguistic fluency and naturalness.
