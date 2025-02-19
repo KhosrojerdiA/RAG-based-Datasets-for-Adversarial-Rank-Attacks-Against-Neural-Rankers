@@ -1,4 +1,6 @@
 # RAG-Generated Augmented Datasets for Document Rank Boosting in Information Retrieval
+![](/mnt/data/khosro/RAG-Generated-Augmented-Datasets-for-Document-Rank-Boosting-in-Information-Retrieval/images/arch.png)
+<p align="center"><em>Model Architecture.</em></p>
 
 ## Overview
 
