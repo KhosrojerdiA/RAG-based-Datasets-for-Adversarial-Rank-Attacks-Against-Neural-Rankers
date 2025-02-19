@@ -1,0 +1,20 @@
+"Your task is to optimize the target document to improve its ranking to position 1 for the given query. "
+"You must strictly follow these constraints:\n\n"
+
+"1. **Target Query:** '{query}'\n"
+"2. **Target Document:**\n'{validator}'\n"
+"3. **Best Sentence Identified:** '{best_sentence}'\n\n"
+
+"### Task Requirements\n"
+"- Seamlessly integrate the provided **best sentence** into the validator document.\n"
+"- The length of the revised validator document **must** remain within the range of {min_length} to {max_length} words.\n"
+"- The revised document must maintain at least **80% similarity** with the original validator document.\n"
+"- The revised validator document should be **highly relevant, persuasive, and aligned with the top-ranked content**.\n\n"
+
+"### Success Criteria\n"
+"- Ensure the validator document is **factually aligned with the given query** and structured effectively.\n"
+"- The language should match the tone and specificity of successful top-ranked documents.\n"
+"- Do **not** introduce any external knowledge. Only use the information provided.\n"
+"- Maintain originality while improving the document's ranking potential.\n\n"
+
+"Now, generate the revised validator document while strictly following the above constraints."

@@ -15,6 +15,8 @@ In this paper, we explore adversarial rank attacks on Neural Ranking Models (NRM
 
 To implement our Retrieval-Augmented Generation (RAG) based adversarial dataset construction, we leveraged Qwen2.5 70B [ 18 ],a state-of-the-art large language model (LLM) optimized for complex language understanding and generation. The model was selected due to its strong performance in generating semantically coherent, context-aware adversarial modifications while maintaining fluency and linguistic integrity. Below, we outline the key components of our implementation pipeline.
 
+** Please check prompts folder to see our LLM Prompts **
+
 ## Abstract
 
 Neural Ranking Models (NRMs) are vulnerable to adversarial attacks that manipulate document rankings, threatening the integrity of retrieval systems. Existing adversarial attacks rely on unsupervised methods and surrogate models, which limit their generalizability. In this work, we introduce a novel RAG-based dataset construction framework that employs Large Language Models (LLMs) to generate adversarially modified documents optimized for rank manipulation. Our dataset is released in three variations: Gold, Platinum, and Diamond, categorized by attack effectiveness. The proposed approach facilitates robust evaluation of adversarial resilience in IR systems and the development of defense strategies against ranking attacks.
@@ -89,3 +91,5 @@ We evaluate our approach against state-of-the-art adversarial ranking techniques
 <p align="center"><em></em></p>
 
 Our RAG-based approach achieves a 100% attack success rate, significantly improving document rankings while maintaining high linguistic fluency and naturalness.
+
+
