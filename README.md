@@ -1,5 +1,5 @@
 # RAG-Generated Augmented Datasets for Document Rank Boosting in Information Retrieval
-![](images/model.png)
+![](images/arch.png)
 <p align="center"><em>Model Architecture.</em></p>
 
 ## Overview
