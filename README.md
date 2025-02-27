@@ -92,6 +92,13 @@ We evaluate our approach against state-of-the-art adversarial ranking techniques
 ![](images/Slide6.png)
 <p align="center"><em></em></p>
 
+## Fine Tuned LLMs
+We fine tuned variout LLMs and trained with 80% of data and test with other 20%. 
+Then we compare the fine tuned LLMs with other methods to evaluate the effectivity of the datasets we created in fine tunning the LLMs.
+![](images/Slide7.png)
+<p align="center"><em></em></p>
+
+
 Our RAG-based approach achieves a 100% attack success rate, significantly improving document rankings while maintaining high linguistic fluency and naturalness.
 
 
