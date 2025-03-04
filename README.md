@@ -101,6 +101,10 @@ Then we compare the fine tuned LLMs with other methods to evaluate the effectivi
 ![](images/Slide7.png)
 <p align="center"><em></em></p>
 
+For collection of LLMs, please check this link in HuggingFace: https://huggingface.co/collections/radinrad/rank-boosting-67c69a018c08e605d7c7f530
 
+R1 Distilled - Qwen 7B: https://huggingface.co/radinrad/DeepSeek-R1-Distill-Qwen-7B-Promote
+R1 Distilled - Qwen 32B: https://huggingface.co/radinrad/DeepSeek-R1-Distill-Qwen-32B-Promote
+R1 Distilled - Llama 70B: https://huggingface.co/radinrad/DeepSeek-R1-Distill-Llama-70B-Promote
 
 
