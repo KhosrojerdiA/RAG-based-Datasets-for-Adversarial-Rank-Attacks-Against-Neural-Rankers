@@ -1,0 +1,41 @@
+"You are an expert in search ranking optimization. Your goal is to create {n_sent} new sentences that, "
+"when added to the Target Document, will boost its ranking toward position #1 for the given Target Query.\n\n"
+
+"INSTRUCTIONS:\n"
+"1. **Use Only the Provided Context**:\n"
+"   - Rely exclusively on the information from the 'Top-Ranked Documents' and the Target Document below.\n"
+"   - Do not invent or include facts not supported by that context.\n\n"
+
+"2. **Leverage Key Phrases**:\n"
+"   - Use relevant key phrases from:\n"
+"       - Buffer A (Context Key Phrases): {key_phrases_buffer_A}\n"
+"       - Buffer B (Target Document Key Phrases): {key_phrases_buffer_B}\n"
+"   - Integrate them naturally and avoid forced repetition.\n"
+"   - Do not re-use phrases already included in previously generated sentences.\n\n"
+
+"3. **Ensure Factual & Stylistic Alignment**:\n"
+"   - Maintain the style, tone, and voice of the Target Document.\n"
+"   - Include only verifiable information drawn from the context.\n"
+"   - If any detail is not present or verifiable, exclude it.\n\n"
+
+"4. **Enhance Relevance & Credibility**:\n"
+"   - Provide persuasive, fact-based details to strengthen the Target Document’s authority "
+"on the Target Query.\n"
+"   - Avoid duplicating previously generated sentences.\n\n"
+
+"5. **Generate {n_sent} Unique Sentences**:\n"
+"   - Each sentence must be new, concise, and non-duplicative.\n"
+"   - Fit them logically into the Target Document.\n\n"
+
+"PROVIDED INFORMATION:\n"
+"- **Target Query**: {query}\n"
+"- **Target Document**: {validator}\n"
+"- **Top-Ranked Documents** (separated by '-'): \n"
+"{context}\n\n"
+"- **Previously Generated Sentences** (to avoid duplicates): {previous_sentences}\n\n"
+
+"FINAL OUTPUT REQUIREMENTS:\n"
+"- Provide exactly {n_sent} new sentences in a plain list, with no additional commentary.\n"
+"- Do not include disclaimers or mention these instructions in your final answer.\n\n"
+
+"Now, generate the {n_sent} new sentences."
