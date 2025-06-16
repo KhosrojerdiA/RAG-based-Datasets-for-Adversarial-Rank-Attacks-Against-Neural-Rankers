@@ -21,13 +21,13 @@ To implement our Retrieval-Augmented Generation (RAG) based adversarial dataset 
 
 ## Abstract
 
-Neural Ranking Models (NRMs) are vulnerable to adversarial attacks that manipulate document rankings, threatening the integrity of retrieval systems. Existing adversarial attacks rely on unsupervised methods and surrogate models, which limit their generalizability. In this work, we introduce a novel RAG-based dataset construction framework that employs Large Language Models (LLMs) to generate adversarially modified documents optimized for rank manipulation. Our dataset is released in two variations: Platinum, and Diamond, categorized by attack effectiveness. The proposed approach facilitates robust evaluation of adversarial resilience in IR systems and the development of defense strategies against ranking attacks.
+Neural Ranking Models (NRMs) are vulnerable to adversarial attacks that manipulate document rankings, threatening the integrity of retrieval systems. Existing adversarial attacks rely on unsupervised methods and surrogate models, which limit their generalizability. In this work, we introduce a novel RAG-based dataset construction framework that employs Large Language Models (LLMs) to generate adversarially modified documents optimized for rank manipulation. Our dataset is released in two variations: Gold, and Diamond, categorized by attack effectiveness. The proposed approach facilitates robust evaluation of adversarial resilience in IR systems and the development of defense strategies against ranking attacks.
 
 ## Key Contributions
 
 - A supervised adversarial dataset for benchmarking adversarial attacks against NRMs.
 - An iterative self-refinement process using an LLM-NRM feedback loop to generate high-impact adversarial modifications.
-- Two dataset variations (Platinum, Diamond) categorized by ranking impact.
+- Two dataset variations (Gold, Diamond) categorized by ranking impact.
 - Comprehensive evaluation against state-of-the-art adversarial attack methods on IR systems.
 
 ## Installation
@@ -48,7 +48,7 @@ Following Wu et al., we evaluate our attack methods on a randomly sampled subset
 
 ## Datasets Variation
 Our datasets are categorized as follows:
-- Platinum: Selects the best-performing adversarial modifications per document-query pair.
+- Gold: Selects the best-performing adversarial modifications per document-query pair.
 - Diamond: Strictly filters cases where documents achieve a rank of ≤10 for mid-ranked (Easy-5) and ≤50 for lower-ranked (Hard-5) documents.
 
 
