@@ -2,7 +2,7 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 
-![](images/arch.png)
+![](images/Slide1.png)
 <p align="center"><em>Model Architecture.</em></p>
 
 ## Overview
@@ -61,34 +61,26 @@ Our datasets are categorized as follows:
 - Perplexity: A measure of text fluency, with lower values indicating more predictable and coherent language after augmentation.
 - Acceptability Score: A measure of perceived text quality, reflecting how natural or readable the augmented document is compared to the original document.
 
-## Datasets Analysis
-
-![](images/Slide1.png)
-<p align="center"><em></em></p>
+## Table 1: Gold dataset statistics: original vs. adversarial documents with per-position breakdown for Easy-5 and Hard-5.
 
 ![](images/Slide2.png)
 <p align="center"><em></em></p>
 
+## Table 2: Diamondom dataset statistics: original vs. adversarial documents with per-position breakdown for Easy-5 and Hard-5.
+
 ![](images/Slide3.png)
 <p align="center"><em></em></p>
 
-![](images/Slide4.png)
-<p align="center"><em></em></p>
-
-![](images/Slide5.png)
-<p align="center"><em></em></p>
 
 
-
-
-## Experimental Results
+## ## Table 3: Performance Comparison of Different Models on Easy-5 and Hard-5.
 We evaluate our approach against state-of-the-art adversarial ranking techniques, including:
 - Query Injection (Query+)
 - Embedding Perturbation (EMPRA)
 - Trigger-Based Attacks (PAT, Brittle-BERT)
 - Sentence-Level Attacks (IDEM)
 
-![](images/Slide6.png)
+![](images/Slide4.png)
 <p align="center"><em></em></p>
 
 
