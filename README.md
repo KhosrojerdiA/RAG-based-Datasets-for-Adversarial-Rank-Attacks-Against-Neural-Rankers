@@ -73,7 +73,7 @@ Our datasets are categorized as follows:
 
 
 
-## ## Table 3: Performance Comparison of Different Models on Easy-5 and Hard-5.
+## Table 3: Performance Comparison of Different Models on Easy-5 and Hard-5.
 We evaluate our approach against state-of-the-art adversarial ranking techniques, including:
 - Query Injection (Query+)
 - Embedding Perturbation (EMPRA)
